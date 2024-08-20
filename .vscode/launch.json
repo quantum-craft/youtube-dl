@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "Debug: youtube_dl/__main__.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "youtube_dl/__main__.py",
+      "console": "integratedTerminal",
+      "env": { "PYTHONPATH": "${workspaceFolder}" },
+      "args": "https://www.youtube.com/watch?v=iRUmb-wzww0"
+    }
+  ]
+}
+
+// https://www.youtube.com/watch?v=FpEEezRkVoM -> 李心潔 - Happy Tune
+// https://www.youtube.com/watch?v=iRUmb-wzww0 -> 李心潔 - 自由
+// -a dataset_test.txt
