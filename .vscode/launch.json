@@ -7,11 +7,14 @@
       "program": "youtube_dl/__main__.py",
       "console": "integratedTerminal",
       "env": { "PYTHONPATH": "${workspaceFolder}" },
-      "args": "--no-cache-dir https://www.youtube.com/watch?v=iRUmb-wzww0"
+      "args": "--no-cache-dir -a dataset_test.txt -o 'test/%(id)s_%(duration)s_%(title)s.%(ext)s'"
     }
   ]
 }
 
 // https://www.youtube.com/watch?v=FpEEezRkVoM -> 李心潔 - Happy Tune
 // https://www.youtube.com/watch?v=iRUmb-wzww0 -> 李心潔 - 自由
+// https://www.youtube.com/watch?v=gQor5aiA_CE -> 怕胖團 - 原來你跟每個人都說一樣的話
+// --no-cache-dir 'https://www.youtube.com/watch?v=gQor5aiA_CE'
+// --no-cache-dir 'https://www.youtube.com/watch?v=gQor5aiA_CE' -f 'bestaudio'
 // -a dataset_test.txt
