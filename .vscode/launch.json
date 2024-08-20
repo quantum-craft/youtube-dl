@@ -7,7 +7,7 @@
       "program": "youtube_dl/__main__.py",
       "console": "integratedTerminal",
       "env": { "PYTHONPATH": "${workspaceFolder}" },
-      "args": "https://www.youtube.com/watch?v=iRUmb-wzww0"
+      "args": "--no-cache-dir https://www.youtube.com/watch?v=iRUmb-wzww0"
     }
   ]
 }
